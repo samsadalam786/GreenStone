@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="./login_page.css">
+    <!-- <link rel="stylesheet" href="./homepage.css"> -->
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <ul class="navbar-nav" style="color: aliceblue;">
+        
+            <li class="nav-item ">
+                <a class="nav-link" href="./login_REGISTRATION_page.html">REGISTRATION FOR NEW USER</a>
+            </li>
+            <li class="nav-item ">
+                <a class="nav-link" href="./login_page.html">LOGIN FOR ALREADY REGISTRTED</a>
+            </li>
+            
+            <button class="btn btn-danger" style="float: right;" onclick="logout()">Log out</button>
+
+    </nav>
+
+    <h1>Welcome to Home page</h1>
+
+    <h1 class="">Hello:- <span id="userName"></span> </h1>
+
+    <table class="table table-striped table-responsive table-danger" style="width: 100%;">
+        <thead>
+            <tr>
+                <th>Email</th>
+                <th>Password</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td id="email"></td>
+                <td id="password"></td>
+            </tr>
+
+        </tbody>
+    </table>
+
+    <script src="./homepage.js"></script>
+</body>
+
+</html>

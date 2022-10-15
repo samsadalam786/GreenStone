@@ -1,0 +1,71 @@
+
+
+body{  
+    font-family: Calibri, Helvetica, sans-serif;  
+    background-color: pink; 
+    border: 5px solid rgb(154, 230, 243) ; 
+    font-size: xx-large ;
+
+  }  
+  .container {  
+      padding: 5%;  
+      font-display: none;
+    background-color: rgb(175, 227, 245); 
+    background-color: aquamarine; 
+  }  
+    
+  input[type=text], input[type=password], textarea {  
+    width: 100%;  
+    padding: 10px;  
+    margin: 5px 0 22px 0;  
+    display: inline-block;  
+    border: none;  
+    background: #faf7f7;  
+  }  
+  input[type=text]:focus, input[type=password]:focus {  
+    background-color: rgb(218, 233, 14);  
+    outline: none;  
+  }  
+   div {  
+              padding: 2px 0;  
+           }  
+  hr {  
+    border: 1px solid #f1f1f1;  
+    margin-bottom: 50px;
+     
+  }  
+  .btnRegister {  
+    background-color: #03354d;  
+    color: white;  
+    padding: 16px 20px;  
+    margin: 8px 0;  
+    border: none;  
+    cursor: pointer;  
+    width: 25%;  
+    opacity: 0.9;  
+
+
+
+    
+  }  
+
+  .registerbtn:hover {  
+    opacity: 1;  
+  } 
+  h1{
+      text-align: center;
+  }
+  .cancelbtn {  
+    background-color: #ec0e0e;  
+    color: white;  
+    padding: 16px 20px;  
+    margin: 8px 0;  
+    border: none;  
+    cursor: pointer;  
+    width: 25%;  
+    opacity: 0.9; 
+
+
+
+    
+  } 

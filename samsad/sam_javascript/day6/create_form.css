@@ -1,0 +1,73 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+  background-color: rgb(123, 212, 235);
+
+}
+.formsec{
+  display: grid;
+  justify-content: center;
+  
+  margin-top: 5vh;
+
+}
+.titlep{
+  text-align: center;
+  font-size: 2vw;
+  font-weight: 900;
+  color:rgb(10, 10, 10) ;
+  margin-bottom: 5px;
+}
+.myform{
+  border: 2px solid rgb(187, 187, 187);
+  border-radius: 8px;
+  background-color: white;
+
+  width: 25vw;
+   height: 75vh; 
+  padding: 15px 15px ;
+}
+.divinput{
+  margin: 8px 0px;
+}
+label{
+  font-size: 1vw;
+  color: rgb(212, 66, 66);
+  display: block;
+}
+.usern{
+  padding: 4px;
+  margin: 8px 0px;
+  width: 97%;
+  font-size: 1vw;
+
+  border: 2px solid rgb(207, 207, 207);
+  border-radius: 2px;
+  color: rgb(73, 73, 179);
+  
+}
+.btn{
+   width: 100%;
+   height: 35px;
+   font-size: 15px;
+  font-size: 1.3vw;
+
+   color: white;
+   background-color: rgb(62, 204, 180);
+   border: none;
+   border-radius: 2px;
+}
+.btn:hover{
+   width: 100%;
+   height: 35px;
+   font-size: 15px;
+  font-size: 1.3vw;
+   color: white;
+   background-color: rgb(50, 170, 150);
+   transition: all 0.4s;
+   border: none;
+   border-radius: 2px;
+}

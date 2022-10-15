@@ -1,0 +1,5 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+.truepush.com	TRUE	/	FALSE	1999999999	XSRF-TOKEN	73dc9477-35a9-5f15-8538-6f3c46693b08
+govjobadda.org	TRUE	/	FALSE	1999999999	csrftoken	ig0XNaecLpdbam7CAFfb7nvhrYOTgqW7BXyC8SICP1CttPYK3LFqophJVppuJBXK
+
