@@ -174,35 +174,53 @@
                 </h1>
 
                 <p>
-                    An Event function is an asynchronous task function that is associated with an Event Listener. An Event function is created to execute a task or a set of tasks on the occurrence of a specified event.
+                    An Event function is an asynchronous task function that is associated with an Event Listener. An
+                    Event function is created to execute a task or a set of tasks on the occurrence of a specified
+                    event.
 
-The default Event Listener listens for an event occurring in one of the Catalyst components and the custom Event Listener listens for the invocation of a particular URL. When these events occur, the event function associated with that event listener instance is automatically invoked and executed.
+                    The default Event Listener listens for an event occurring in one of the Catalyst components and the
+                    custom Event Listener listens for the invocation of a particular URL. When these events occur, the
+                    event function associated with that event listener instance is automatically invoked and executed.
 
-You will not be able to invoke an Event function manually, or test it in the console or the CLI. The endpoint of an Event function is not accessible through a Function URL like Basic I/O or Advanced I/O functions are. An Event function does not return any response other than determining if the function execution was a success or failure.
+                    You will not be able to invoke an Event function manually, or test it in the console or the CLI. The
+                    endpoint of an Event function is not accessible through a Function URL like Basic I/O or Advanced
+                    I/O functions are. An Event function does not return any response other than determining if the
+                    function execution was a success or failure.
 
-You can create an Event function from the Catalyst console, and code it there, or use the CLI to initialize the function and deploy it to the console.
+                    You can create an Event function from the Catalyst console, and code it there, or use the CLI to
+                    initialize the function and deploy it to the console.
 
-You can use various tools to manage your Advanced I/O functions and view their performance statistics such as Logs or Application Performance Monitoring, as mentioned in the Functions Introduction page.
+                    You can use various tools to manage your Advanced I/O functions and view their performance
+                    statistics such as Logs or Application Performance Monitoring, as mentioned in the Functions
+                    Introduction page.
 
-You can practice working with Event functions with the Event Function tutorial or the WorkDrive Sync App tutorial.
+                    You can practice working with Event functions with the Event Function tutorial or the WorkDrive Sync
+                    App tutorial.
 
-A Catalyst Event function supports two modules in Node.js: context and event.
+                    A Catalyst Event function supports two modules in Node.js: context and event.
 
-The context module in Node.js includes the following built-in methods:
+                    The context module in Node.js includes the following built-in methods:
 
-context.closeWithSuccess():: To indicate that the function executed successfully. You must use this at the end of the function.
-context.closeWithFailure():: To indicate that the function's execution was a failure. You must use this at the end of the function.
-The event module in Node.js includes the following built-in methods:
+                    context.closeWithSuccess():: To indicate that the function executed successfully. You must use this
+                    at the end of the function.
+                    context.closeWithFailure():: To indicate that the function's execution was a failure. You must use
+                    this at the end of the function.
+                    The event module in Node.js includes the following built-in methods:
 
-event.getProjectDetails():: To get the project details, such as the project ID and project name
-event.getData():: To get the data about the event associated with the function
-event.getTime():: To get the time of the event occurrence that invoked the function
-event.getSource():: To get the ID of the source entity where the event occurred, such as the Table ID or a cache's Segment ID
-An Event function in Java supports the same modules and built-in methods as Node.js. Some additional methods supported in Java are:
+                    event.getProjectDetails():: To get the project details, such as the project ID and project name
+                    event.getData():: To get the data about the event associated with the function
+                    event.getTime():: To get the time of the event occurrence that invoked the function
+                    event.getSource():: To get the ID of the source entity where the event occurred, such as the Table
+                    ID or a cache's Segment ID
+                    An Event function in Java supports the same modules and built-in methods as Node.js. Some additional
+                    methods supported in Java are:
 
-event.getAction():: To get the action executed in the Catalyst components that triggered the event in the default Event Listener, such as data insertion in a table or a user sign-up
-event.getSourceEntityID():: To get the ID of the source entity where the event occurred, such as the Table ID or a cache's Segment ID
-You can check the default code structure created for an Event function, based on the stack, from the Catalyst console or your function directory in your local system.
+                    event.getAction():: To get the action executed in the Catalyst components that triggered the event
+                    in the default Event Listener, such as data insertion in a table or a user sign-up
+                    event.getSourceEntityID():: To get the ID of the source entity where the event occurred, such as the
+                    Table ID or a cache's Segment ID
+                    You can check the default code structure created for an Event function, based on the stack, from the
+                    Catalyst console or your function directory in your local system.
                 </p>
 
             </div>

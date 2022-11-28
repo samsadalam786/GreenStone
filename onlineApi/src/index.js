@@ -28,9 +28,23 @@ app.get("/", (req, res) => {
 res.render('index');
 });
 // for the about page=================
-app.get ("/MOCK TESTS", (req , res ) => {
-    res.render("mock test");
+app.get ("/MOCKTESTS", (req , res ) => {
+    res.render("mocktest");
     });
+
+
+    app.get ("/CURRENTAFFAIRS", (req , res ) => {
+        res.render("CurrentAffairs");
+        });
+
+
+        app.get ("/BLOGS", (req , res ) => {
+            res.render("blogs");
+            });
+
+            // app.get ("/forblogsbestssscchslpreparation", (req , res ) => {
+            //     res.render("bestbook");
+            //     });
 // for the contact page=================
     app.get ("/contact", (req , res ) => {
         res.render("contact");
