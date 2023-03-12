@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<head>
+
+<body>
+  <br>
+  <div class="container">
+    <div class="row">
+      <div class="panel panel-primary col-md-5" style="margin-left:1%;">
+        <div class="panel-heading" style="text-align:center;">
+          <h6 class="panel-title">Recent Doctors</h6>
+        </div>
+        <table class="table table-hover" id="dev-table">
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Department</th>
+              <th>Mobile</th>
+              <th>Status</th>
+
+            </tr>
+          </thead>
+
+          <tr>
+            <td> {{d.get_name}}</td>
+            <td>{{d.department}}</td>
+            <td>{{d.mobile}}</td>
+
+            <td> <span class="label label-primary">Permanent</span></td>
+
+            <td> <span class="label label-success">On Hold</span></td>
+
+
+          </tr>
+
+        </table>
+      </div>
+
+      <div class="panel panel-primary col-md-6" style="margin-left:5%;">
+        <div class="panel-heading" style="text-align:center;">
+          <h6 class="panel-title">Recent Patient</h6>
+        </div>
+        <table class="table table-hover" id="dev-table">
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Symptoms</th>
+              <th>Mobile</th>
+              <th>Address</th>
+              <th>Status</th>
+
+            </tr>
+          </thead>
+
+          <tr>
+            <td> {{p.get_name}}</td>
+            <td>{{p.symptoms}}</td>
+            <td>{{p.mobile}}</td>
+            <td>{{p.address}}</td>
+            
+            <td> <span class="label label-primary">Admitted</span></td>
+
+            <td> <span class="label label-success">On Hold</span></td>
+
+
+          </tr>
+
+        </table>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="panel panel-primary col-md-pull-12" style="margin-left:1%;">
+        <div class="panel-heading" style="text-align:center;">
+          <h6 class="panel-title">Recent Doctors</h6>
+        </div>
+        <table class="table table-hover" id="dev-table">
+          2022/04/10 11:00 PM To 12:00AM sam 65
+2022/04/10 , 11:00 PM To 12:00AM sonam choudhary 35
+2022/04/10 , 11:00 PM To 12:00AM marram 22
+2022/04/10 , 11:00 PM To 12:00AM martin 21
+2022/04/10 , 11:00 PM To 12:00AM sa.lal 26
+2022/04/10 , 11:00 PM To 12:00AM rijwan khan 40
+2022/04/10 , 11:00 PM To 12:00AM gulapsha khatoon 30
+2022/04/10 , 11:00 PM To 12:00AM sanjay 26
+2022/04/10 , 11:00 PM To 12:00AM sahjad bhai 21
+2022/04/10 04:30 PM To 06: 30 PM deempal yadav 22
+2022/04/10 04:30 PM To 06: 30 PM sazid ali 25
+2022/04/10 04:30 PM To 06: 30 PM sapna kumari 35
+2022/04/10 04:30 PM To 06: 30 PM sarfodin ali 23
+2022/04/10 04:30 PM To 06: 30 PM gamgam kuamr 29
+2022/04/10 04:30 PM To 06: 30 PM sangam kumar 26
+2022/04/10 04:30 PM To 06: 30 PM susum kumari 34
+2022/04/10 04:30 PM To 06: 30 PM sonu kumar 25
+2022/04/10 04:30 PM To 06: 30 PM abhinandni 28
+2022/04/10 04:30 PM To 06: 30 PM shaymli 21
+2022/04/10 07:00 PM To 08:00 PM surver kumar 21
+2022/04/10 07:00 PM To 08:00 PM sumit kumar 20
+2022/04/10 07:00 PM To 08:00 PM ali 21
+2022/04/10 07:00 PM To 08:00 PM rahman ali 22
+2022/04/10 07:00 PM To 08:00 PM bilal a
+      </div>
+    </div>
+  </div>
+</body>
+</head>

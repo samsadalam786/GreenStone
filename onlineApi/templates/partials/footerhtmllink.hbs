@@ -1,0 +1,127 @@
+ <div class="footer_bottom_row">
+            <div class="container">
+                <ul>
+                    <li>
+                        <a href="govjobadda-android-app/index.html"> GovtJob Android App </a>
+                    </li>
+                    <li>
+                        <a href="cookie-policy/index.html"> Cookie Policy </a>
+                    </li>
+                    <li>
+                        <a href="privacy-policy/index.html"> Privacy Policy </a>
+                    </li>
+                    <li>
+                        <a href="terms-of-usage/index.html"> Terms of Usage </a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+
+
+    </div>
+
+    <!-- <div id="govjobadda_live_quiz_modal" class="img_modal_container hidden" style="">
+		<span class="close_modal_btn"><i class="ion ion-close-round"></i></span> -->
+    <!-- <a href="https://vajiramandravi.com/upsc-results.php" target="_blank" class="img_modal_link_wrapper" style=" width:90%;">
+				<img src="images/new/vajiram_upsc_cse_2018_results-min.png" alt="Vajiram Results " style="max-height:100%;" />
+			</a> -->
+    <!-- <a href="https://play.google.com/store/apps/details?id=org.govjobadda.android" target="_blank"
+			class="img_modal_link_wrapper" style=" width:90%;">
+			<img src="static/govtjob/images/slides/govjobadda_live_quiz.jpg" alt="GovJobAdda App"
+				style="max-height:100%;" />
+		</a>
+	</div> -->
+
+
+    <script type="text/javascript" src="../css/5jquery-2.1.4.min.js" />
+    </script>
+    <script type="text/javascript" src="../css/6popper.min.js" />
+    </script>
+    <script type="text/javascript" src="../css/7bootstrap.min.js" />
+    </script>
+    <script src="../css/8isotope.pkgdfb74.js"></script>
+    <script type="text/javascript" src="../css/9homepage_script3860.js" />
+    </script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            var $grid = $('.grid').isotope({
+                itemSelector: '.element-item',
+                layoutMode: 'fitRows',
+                filter: '.all_exam'
+            });
+            // $grid.isotope({ filter: '.metal' });
+            $(document).on('click', '.isotope_controls .button', function () {
+                var isotope_controls = $(this).closest('.isotope_controls');
+                isotope_controls.find('.is-checked').removeClass('is-checked');
+                $(this).addClass('is-checked');
+                var filterValue = $(this).attr('data-filter');
+                console.log(filterValue);
+                $grid.isotope({ filter: filterValue });
+            });
+        });
+    </script>
+
+    <script type="text/javascript">
+
+
+
+        function createCookie(name, value, days) {
+            var expires;
+
+            if (days) {
+                var date = new Date();
+                date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+                expires = "; expires=" + date.toGMTString();
+            } else {
+                expires = "";
+            }
+            document.cookie = encodeURIComponent(name) + "=" + encodeURIComponent(value) + expires + "; path=/";
+        }
+
+        function readCookie(name) {
+            var nameEQ = encodeURIComponent(name) + "=";
+            var ca = document.cookie.split(';');
+            for (var i = 0; i < ca.length; i++) {
+                var c = ca[i];
+                while (c.charAt(0) === ' ') c = c.substring(1, c.length);
+                if (c.indexOf(nameEQ) === 0) return decodeURIComponent(c.substring(nameEQ.length, c.length));
+            }
+            return null;
+        }
+
+        function eraseCookie(name) {
+            createCookie(name, "", -1);
+        }
+
+
+				// if(! readCookie('govjobadda_live_quiz_modal_cookie')){
+				// 	$('#govjobadda_live_quiz_modal').removeClass('hidden');
+				// }
+
+				// $(document).on('click','.close_modal_btn', function(){
+				// 	$(this).closest('.img_modal_container').addClass('hidden');
+				// 	createCookie('govjobadda_live_quiz_modal_cookie','true',0.25);
+				// });
+
+				// $(document).on('click','.img_modal_link_wrapper', function(){
+				// 	$(this).closest('.img_modal_container').addClass('hidden');
+				// 	createCookie('govjobadda_live_quiz_modal_cookie','true',0.25);
+				// });
+
+    </script>
+
+
+
+
+    <script type="application/javascript" src="../css/lastapp.js" async></script>
+    <script>
+        var truepush = window.truepush || [];
+        truepush.push(function () {
+            truepush.Init({
+                id: "5dc796347379bfbcf3b0c804"
+            }, function (error) {
+                if (error) console.error(error);
+            })
+        })
+    </script>

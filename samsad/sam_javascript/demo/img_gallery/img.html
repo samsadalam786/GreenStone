@@ -1,0 +1,57 @@
+<!DOCTYPE html PUBLIC>
+<html>
+  <head>
+    <title>
+      Simple and Effective Photo Gallery with HTML and JavaScript
+    </title>
+
+    <style type="text/css">
+      body {
+        background: #222;
+        margin-top: 20px;
+      }
+
+      h3 {
+        color: #eee;
+        font-family: Verdana;
+      }
+
+      .thumbnails img {
+        height: 80px;
+        border: 4px solid #555;
+        padding: 1px;
+        margin: 0 10px 10px 0;
+      }
+
+      .thumbnails img:hover {
+        border: 4px solid #00ccff;
+        cursor:pointer;
+      }
+
+      .preview img {
+        border: 4px solid #444;
+        padding: 1px;
+        width: 400px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="gallery" align="center">
+      <h3>Simple and Effective Photo Gallery with HTML and JavaScript</h3><br/>
+
+      <div class="thumbnails">
+        <img onmouseover="preview.src=img1.src" id="img1" src="./../imag3/boy imag.jpg" alt="Image Not Loaded"/>
+        <img onmouseover="preview.src=img2.src" id="img2" src="./../imag3/girls imag.jpg" alt="Image Not Loaded"/>
+        <img onmouseover="preview.src=img3.src" id="img3" src="http://bit.ly/1yIAYc" alt="Image Not Loaded"/>
+        <img onmouseover="preview.src=img4.src" id="img4" src="http://bit.ly/2LHyDW" alt="Image Not Loaded"/>
+        <img onmouseover="preview.src=img5.src" id="img5" src="http://bit.ly/2wyHSR" alt="Image Not Loaded"/>
+        <img onmouseover="preview.src=img6.src" id="img6" src="http://bit.ly/yRo1i" alt="Image Not Loaded"/>
+      </div><br/>
+
+      <div class="preview" align="center">
+        <img id="preview" src="./../imag3/images.jpg" alt="No Image Loaded"/>
+      </div><br/>
+    </div>
+  </body>
+</html>

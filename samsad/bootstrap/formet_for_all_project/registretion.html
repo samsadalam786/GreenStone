@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./home.css">
+    <link rel="stylesheet" href="./registretion.css">
+</head>
+
+<body>
+
+    <ul>
+        <li><a href="./home.html">Home</a></li>
+        <li><a href="./services.html">Services</a></li>
+        <li><a href="./contect.html">Contact</a></li>
+        <li><a href="./about.html">About</a></li>
+        <li style="float:right"><a href="./sign.html">Login</a></li>
+        <li style="float:right"><a href="./registretion.html">Registered</a></li>
+    </ul>
+
+
+
+
+
+
+
+    <h2>Registretion Form</h2>
+    <h3>Basic details</h3>
+    <!--Step 1:Adding HTML-->
+    <form action="/action_page.php" style="border:1px solid #ccc">
+        <div class="container">
+            <label><b>Full Name</b></label>
+            <input type="text" placeholder="Enter Full Name" name="Name" required>
+
+            <label><b>Email</b></label>
+            <input type="text" placeholder="Enter Email" name="emi" required>
+
+
+            <label> <b>Birthday</b></label>
+            <input type="date" placeholder="Enter birthday" name="birthday" required>
+
+
+            <br>
+            <br>
+
+            <label><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" required>
+
+            <label><b>Repeat Password</b></label>
+            <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+
+
+            <h2>personal details</h2>
+            <!--Step 1:Adding HTML-->
+            <!-- <form action="/action_page.php" style="border:1px solid #ccc"> -->
+            <div class="container">
+                <label><b>Father Name</b></label>
+                <input type="text" placeholder="Enter Father Name" name="name" required>
+
+                <label><b>Mother Name</b></label>
+                <input type="text" placeholder="Enter Mother Name" name="mname" required>
+
+                <label><b>Mobile Number</b></label>
+                <input type="tel" placeholder="Enter Mobile Number" name="mob" required>
+
+                <label><b>Address</b></label>
+                <input type="text" placeholder="Enter Address" name="add" required>
+
+
+
+                <h2>Qulification details</h2>
+                <!--Step 1:Adding HTML-->
+                <!-- <form action="/action_page.php" style="border:1px solid #ccc"> -->
+                <div class="container">
+                    <label><b>10th School Name</b></label>
+                    <input type="text" placeholder="Enter School Name" name="sname" required>
+
+                    <label><b>10th Percentage</b></label>
+                    <input type="text" placeholder="Enret percentage" name="epercentage" required>
+
+                    <label><b>12th School Name</b></label>
+                    <input type="text" placeholder="Enter School Name" name="scname" required>
+
+                    <label><b>12th Percentage</b></label>
+                    <input type="text" placeholder="Enret percentage" name="epercentage" required>
+
+                    <label><b>College Name</b></label>
+                    <input type="text" placeholder="Enter college Name" name="psw" required>
+
+                    <label><b>Percentage</b></label>
+                    <input type="text" placeholder="Enret percentage" name="epercentage" required>
+
+
+
+                    <input type="checkbox" checked="checked"> Remember me
+                    <p>To create an account you have to agree our <a href="#">Terms & Privacy</a>.</p>
+
+                    <div class="clearfix">
+                        <button type="button" class="cancelbtn">Cancel</button>
+                        <button type="submit" class="signupbtn">submit</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </form>
+</body>
+
+</html>

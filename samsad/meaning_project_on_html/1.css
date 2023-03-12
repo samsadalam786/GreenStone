@@ -1,0 +1,7 @@
+
+h1,p{
+    background-color: rgb(47, 0, 255);
+    color: rgb(198, 192, 207);
+   border-color: rgb(190, 176, 176);size: 100px;
+  background-image: url('./../image/img1.png');
+}

@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ONLINE SHOPING</title>
+    <link rel="stylesheet" href="./shoping_card.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div>
+        <div class="bg-white p-3 rounded shadow">
+            <div class="input-group mb-2">
+                <input type="search" placeholder="Search here..." aria-describedby="button-addon5" class="form-control">
+                <div class="input-group-append">
+                    <button id="button-addon5" type="submit" class="btn btn-primary"> <i class="fa fa-search"> </i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="btn-group">
+            <button type="button" class="btn  dropdown-toggle" data-toggle="dropdown">products </button>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">View All Products</a>
+                <a class="dropdown-item" href="#">Laptops</a>
+                <a class="dropdown-item" href="#">Desktops</a>
+                <a class="dropdown-item" href="#">Gaming</a>
+                <a class="dropdown-item" href="#">Monitors</a>
+                <a class="dropdown-item" href="#">Electronics & Accessories</a>
+            </div>
+        </div>
+
+        <div class="btn-group">
+            <button type="button" class="btn  dropdown-toggle" data-toggle="dropdown">Solution </button>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">View All Solution</a>
+                <a class="dropdown-item" href="#">DevOps Tool and Solution</a>
+                <a class="dropdown-item" href="#">Edge Solution</a>
+                <a class="dropdown-item" href="#">Oem Solution</a>
+                <a class="dropdown-item" href="#">Security Solution</a>
+                <a class="dropdown-item" href="#">Small Business Solution</a>
+            </div>
+        </div>
+
+        <div class="btn-group">
+            <button type="button" class="btn  dropdown-toggle" data-toggle="dropdown">Services </button>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">View All Services</a>
+                <a class="dropdown-item" href="#">Services for Home</a>
+                <a class="dropdown-item" href="#">Services for small Business</a>
+                <a class="dropdown-item" href="#">Deployment Services</a>
+                <a class="dropdown-item" href="#">Suppert Services</a>
+                <a class="dropdown-item" href="#">Education services</a>
+                <a class="dropdown-item" href="#">Services Technology</a>
+                <a class="dropdown-item" href="#">Residency services</a>
+            </div>
+        </div>
+
+        <div class="btn-group">
+            <button type="button" class="btn  dropdown-toggle" data-toggle="dropdown">Support </button>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Support Home</a>
+                <a class="dropdown-item" href="#">Knowledge Base</a>
+                <a class="dropdown-item" href="#">Warranty & Contracts</a>
+                <a class="dropdown-item" href="#">Services Requsts & Dispatch Stuts</a>
+                <a class="dropdown-item" href="#">Order Support</a>
+                <a class="dropdown-item" href="#">Contact Us</a>
+            </div>
+        </div>
+
+        <div class="btn-group">
+            <button type="button" class="btn dropdown-toggle" data-toggle="dropdown">Deals </button>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">View All Deals</a>
+                <a class="dropdown-item" href="#">Budget Laptop Deals</a>
+                <a class="dropdown-item" href="#">Laptop Deals</a>
+                <a class="dropdown-item" href="#">Desktops Deals</a>
+                <a class="dropdown-item" href="#">Gaming Laptop</a>
+                <a class="dropdown-item" href="#">2-in-1 Laptop Deals</a>
+                <a class="dropdown-item" href="#">Xps Laptop Deals</a>
+                <a class="dropdown-item" href="#">Student Laptop Deals</a>
+            </div>
+        </div>
+
+        <div class="btn-group">
+            <button type="button" class="btn  dropdown-toggle" data-toggle="dropdown">Find a Store </button>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="#"></a>
+
+            </div>
+        </div>
+        <div class="btn-group">
+            <button type="button" class="btn  dropdown-toggle" data-toggle="dropdown">About Us </button>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">What We Do</a>
+                <a class="dropdown-item" href="#">Who We Are</a>
+                <a class="dropdown-item" href="#">Newsroom</a>
+                <a class="dropdown-item" href="#">Social Impact</a>
+                <a class="dropdown-item" href="#">Recycling</a>
+                <a class="dropdown-item" href="#">INvestors</a>
+                <a class="dropdown-item" href="#">Carees</a>
+                <a class="dropdown-item" href="#">Perespectives</a>
+            </div>
+        </div>
+        <hr>
+
+        <div class="container main-section">
+            <div class="row">
+                <div class="col-lg-12 pb-2">
+                    <h2> Shoping Cart Design Template </h2>
+                </div>
+                <div class="col-lg-12 pl-3 pt-3">
+                    <table class="table table-hover border bg-white">
+                        <thead>
+                            <tr>
+                                <th>
+                                    <h4> <b> Product Details </b> </h4>
+                                </th>
+                                <th>
+                                    <h4> <b> Price </h4> <b>
+                                </th>
+                                <th style="width:10%;">
+                                    <h4> <b> Quantity <b> </h4>
+                                </th>
+                                <th>
+                                    <h4> <b> Subtotal <b> </h4>
+                                </th>
+                                <th>
+                                    <h4> <b> Action <b> </h4>
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <div class="row">
+                                        <div class="col-lg-2 Product-img">
+                                            <img src="./../img2/lenovo.jpg" alt="pari" class="img-responsive" />
+                                        </div>
+                                        <div class="col-lg-10">
+                                            <h5 class="nomargin"> <b> Lenovo K6 Power </b> </h5>
+                                            <p> Lenovo, a globally recognized Chinese brand has gained immense
+                                                popularity
+                                                in the Indian market for selling high-performance laptops with excellent
+                                                features. </p>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td> <strong> 50,000 </strong> </td>
+                                <td data-th="Quantity">
+                                    <b> <input type="number" class="form-control text-center" value="1"> </b>
+                                </td>
+                                <td> <strong> 50,000 </strong> </td>
+                                <td class="actions" data-th="" style="width:10%;">
+                                    <button class="btn btn-info btn-sm"> <span
+                                            class="glyphicon glyphicon-shopping-cart">
+                                        </span> </button>
+                                    <button class="btn btn-danger btn-sm"> <i class="fa fa-trash-o"> </i> </button>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <div class="row">
+                                        <div class="col-lg-2 Product-img">
+                                            <img src="./../img2/iphone.jpg" alt="..." class="img-responsive" />
+                                        </div>
+                                        <div class="col-lg-10">
+                                            <h5 class="nomargin"> <b> Iphone 6s </b> </h5>
+                                            <p> The iPhone is a smartphone made by Apple that combines a computer, iPod,
+                                                digital camera and cellular phone into one device with a touchscreen
+                                                interface.. </p>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td> <strong> 30,000 </strong> </td>
+                                <td data-th="Quantity">
+                                    <b> <input type="number" class="form-control text-center" value="1"> </b>
+                                </td>
+                                </td>
+                                <td> <strong> 30,000 </strong> </td>
+                                <td class="actions" data-th="" style="width:10%;">
+                                    <button class="btn btn-info btn-sm"> <span
+                                            class="glyphicon glyphicon-shopping-cart">
+                                        </span> </button>
+                                    <button class="btn btn-danger btn-sm"> <i class="fa fa-trash-o"> </i> </button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="row">
+                                        <div class="col-lg-2 Product-img">
+                                            <img src="./../img2/dell laptop.jpg" alt="..." class="img-responsive">
+                                        </div>
+                                        <div class="col-lg-10">
+                                            <h5 class="nomargin"> <b> Dell Power </b> </h5>
+                                            <p> Dell is an American company that develops, sells, repairs, and supports
+                                                computers and related products and services,. </p>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td> <strong> 50,000 </strong> </td>
+                                <td data-th="Quantity">
+                                    <b> <input type="number" class="form-control text-center" value="1"> </b>
+                                </td>
+                                </td>
+                                <td> <strong> 50,000 </strong> </td>
+                                <td class="actions" data-th="" style="width:10%;">
+                                    <button class="btn btn-info btn-sm"> <span
+                                            class="glyphicon glyphicon-shopping-cart">
+                                        </span> </button>
+                                    <button class="btn btn-danger btn-sm"> <i class="fa fa-trash-o"> </i> </button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="row">
+                                        <div class="col-lg-2 Product-img">
+                                            <img src="./../img2/laptop1.jpg" alt="pari" class="img-responsive" />
+                                        </div>
+                                        <div class="col-lg-10">
+                                            <h5 class="nomargin"> <b> Lenovo K6 Power </b> </h5>
+                                            <p> Lenovo, a globally recognized Chinese brand has gained immense
+                                                popularity
+                                                in the Indian market for selling high-performance laptops with excellent
+                                                features. </p>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td> <strong> 50,000 </strong> </td>
+                                <td data-th="Quantity">
+                                    <b> <input type="number" class="form-control text-center" value="1"> </b>
+                                </td>
+                                <td> <strong> 50,000 </strong> </td>
+                                <td class="actions" data-th="" style="width:10%;">
+                                    <button class="btn btn-info btn-sm"> <span
+                                            class="glyphicon glyphicon-shopping-cart">
+                                        </span> </button>
+                                    <button class="btn btn-danger btn-sm"> <i class="fa fa-trash-o"> </i> </button>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <div class="row">
+                                        <div class="col-lg-2 Product-img">
+                                            <img src="./../img2/cloth.jpg" alt="..." class="img-responsive" />
+                                        </div>
+                                        <div class="col-lg-10">
+                                            <h5 class="nomargin"> <b> Iphone 6s </b> </h5>
+                                            <p> The iPhone is a smartphone made by Apple that combines a computer, iPod,
+                                                digital camera and cellular phone into one device with a touchscreen
+                                                interface.. </p>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td> <strong> 30,000 </strong> </td>
+                                <td data-th="Quantity">
+                                    <b> <input type="number" class="form-control text-center" value="1"> </b>
+                                </td>
+                                </td>
+                                <td> <strong> 30,000 </strong> </td>
+                                <td class="actions" data-th="" style="width:10%;">
+                                    <button class="btn btn-info btn-sm"> <span
+                                            class="glyphicon glyphicon-shopping-cart">
+                                        </span> </button>
+                                    <button class="btn btn-danger btn-sm"> <i class="fa fa-trash-o"> </i> </button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="row">
+                                        <div class="col-lg-2 Product-img">
+                                            <img src="./../img2/iphone1.jpg" alt="..." class="img-responsive">
+                                        </div>
+                                        <div class="col-lg-10">
+                                            <h5 class="nomargin"> <b> Dell Power </b> </h5>
+                                            <p> Dell is an American company that develops, sells, repairs, and supports
+                                                computers and related products and services,. </p>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td> <strong> 50,000 </strong> </td>
+                                <td data-th="Quantity">
+                                    <b> <input type="number" class="form-control text-center" value="1"> </b>
+                                </td>
+                                </td>
+                                <td> <strong> 50,000 </strong> </td>
+                                <td class="actions" data-th="" style="width:10%;">
+                                    <button class="btn btn-info btn-sm"> <span
+                                            class="glyphicon glyphicon-shopping-cart">
+                                        </span> </button>
+                                    <button class="btn btn-danger btn-sm"> <i class="fa fa-trash-o"> </i> </button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="row">
+                                        <div class="col-lg-2 Product-img">
+                                            <img src="./../img2/laptop2.jpg" alt="pari" class="img-responsive" />
+                                        </div>
+                                        <div class="col-lg-10">
+                                            <h5 class="nomargin"> <b> Lenovo K6 Power </b> </h5>
+                                            <p> Lenovo, a globally recognized Chinese brand has gained immense
+                                                popularity
+                                                in the Indian market for selling high-performance laptops with excellent
+                                                features. </p>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td> <strong> 50,000 </strong> </td>
+                                <td data-th="Quantity">
+                                    <b> <input type="number" class="form-control text-center" value="1"> </b>
+                                </td>
+                                <td> <strong> 50,000 </strong> </td>
+                                <td class="actions" data-th="" style="width:10%;">
+                                    <button class="btn btn-info btn-sm"> <span
+                                            class="glyphicon glyphicon-shopping-cart">
+                                        </span> </button>
+                                    <button class="btn btn-danger btn-sm"> <i class="fa fa-trash-o"> </i> </button>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <div class="row">
+                                        <div class="col-lg-2 Product-img">
+                                            <img src="./../img2/cloth1.jpg" alt="..." class="img-responsive" />
+                                        </div>
+                                        <div class="col-lg-10">
+                                            <h5 class="nomargin"> <b> Iphone 6s </b> </h5>
+                                            <p> The iPhone is a smartphone made by Apple that combines a computer, iPod,
+                                                digital camera and cellular phone into one device with a touchscreen
+                                                interface.. </p>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td> <strong> 30,000 </strong> </td>
+                                <td data-th="Quantity">
+                                    <b> <input type="number" class="form-control text-center" value="1"> </b>
+                                </td>
+                                </td>
+                                <td> <strong> 30,000 </strong> </td>
+                                <td class="actions" data-th="" style="width:10%;">
+                                    <button class="btn btn-info btn-sm"> <span
+                                            class="glyphicon glyphicon-shopping-cart">
+                                        </span> </button>
+                                    <button class="btn btn-danger btn-sm"> <i class="fa fa-trash-o"> </i> </button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="row">
+                                        <div class="col-lg-2 Product-img">
+                                            <img src="./../img2/iphone2.jpg" alt="..." class="img-responsive">
+                                        </div>
+                                        <div class="col-lg-10">
+                                            <h5 class="nomargin"> <b> Dell Power </b> </h5>
+                                            <p> Dell is an American company that develops, sells, repairs, and supports
+                                                computers and related products and services,. </p>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td> <strong> 50,000 </strong> </td>
+                                <td data-th="Quantity">
+                                    <b> <input type="number" class="form-control text-center" value="1"> </b>
+                                </td>
+                                </td>
+                                <td> <strong> 50,000 </strong> </td>
+                                <td class="actions" data-th="" style="width:10%;">
+                                    <button class="btn btn-info btn-sm"> <span
+                                            class="glyphicon glyphicon-shopping-cart">
+                                        </span> </button>
+                                    <button class="btn btn-danger btn-sm"> <i class="fa fa-trash-o"> </i> </button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="row">
+                                        <div class="col-lg-2 Product-img">
+                                            <img src="./../img2/laptop2.jpg" alt="pari" class="img-responsive" />
+                                        </div>
+                                        <div class="col-lg-10">
+                                            <h5 class="nomargin"> <b> Lenovo K6 Power </b> </h5>
+                                            <p> Lenovo, a globally recognized Chinese brand has gained immense
+                                                popularity
+                                                in the Indian market for selling high-performance laptops with excellent
+                                                features. </p>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td> <strong> 50,000 </strong> </td>
+                                <td data-th="Quantity">
+                                    <b> <input type="number" class="form-control text-center" value="1"> </b>
+                                </td>
+                                <td> <strong> 50,000 </strong> </td>
+                                <td class="actions" data-th="" style="width:10%;">
+                                    <button class="btn btn-info btn-sm"> <span
+                                            class="glyphicon glyphicon-shopping-cart">
+                                        </span> </button>
+                                    <button class="btn btn-danger btn-sm"> <i class="fa fa-trash-o"> </i> </button>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <div class="row">
+                                        <div class="col-lg-2 Product-img">
+                                            <img src="./../img2/iphone1.jpg" alt="..." class="img-responsive" />
+                                        </div>
+                                        <div class="col-lg-10">
+                                            <h5 class="nomargin"> <b> Iphone 6s </b> </h5>
+                                            <p> The iPhone is a smartphone made by Apple that combines a computer, iPod,
+                                                digital camera and cellular phone into one device with a touchscreen
+                                                interface.. </p>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td> <strong> 30,000 </strong> </td>
+                                <td data-th="Quantity">
+                                    <b> <input type="number" class="form-control text-center" value="1"> </b>
+                                </td>
+                                </td>
+                                <td> <strong> 30,000 </strong> </td>
+                                <td class="actions" data-th="" style="width:10%;">
+                                    <button class="btn btn-info btn-sm"> <span
+                                            class="glyphicon glyphicon-shopping-cart">
+                                        </span> </button>
+                                    <button class="btn btn-danger btn-sm"> <i class="fa fa-trash-o"> </i> </button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="row">
+                                        <div class="col-lg-2 Product-img">
+                                            <img src="./../img2/cloth.jpg" alt="..." class="img-responsive">
+                                        </div>
+                                        <div class="col-lg-10">
+                                            <h5 class="nomargin"> <b> Dell Power </b> </h5>
+                                            <p> Dell is an American company that develops, sells, repairs, and supports
+                                                computers and related products and services,. </p>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td> <strong> 50,000 </strong> </td>
+                                <td data-th="Quantity">
+                                    <b> <input type="number" class="form-control text-center" value="1"> </b>
+                                </td>
+                                </td>
+                                <td> <strong> 50,000 </strong> </td>
+                                <td class="actions" data-th="" style="width:10%;">
+                                    <button class="btn btn-info btn-sm"> <span
+                                            class="glyphicon glyphicon-shopping-cart">
+                                        </span> </button>
+                                    <button class="btn btn-danger btn-sm"> <i class="fa fa-trash-o"> </i> </button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="row">
+                                        <div class="col-lg-2 Product-img">
+                                            <img src="./../img2/iphone.jpg" alt="pari" class="img-responsive" />
+                                        </div>
+                                        <div class="col-lg-10">
+                                            <h5 class="nomargin"> <b> Lenovo K6 Power </b> </h5>
+                                            <p> Lenovo, a globally recognized Chinese brand has gained immense
+                                                popularity
+                                                in the Indian market for selling high-performance laptops with excellent
+                                                features. </p>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td> <strong> 50,000 </strong> </td>
+                                <td data-th="Quantity">
+                                    <b> <input type="number" class="form-control text-center" value="1"> </b>
+                                </td>
+                                <td> <strong> 50,000 </strong> </td>
+                                <td class="actions" data-th="" style="width:10%;">
+                                    <button class="btn btn-info btn-sm"> <span
+                                            class="glyphicon glyphicon-shopping-cart">
+                                        </span> </button>
+                                    <button class="btn btn-danger btn-sm"> <i class="fa fa-trash-o"> </i> </button>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <div class="row">
+                                        <div class="col-lg-2 Product-img">
+                                            <img src="./../img2/cloth2.jpg" alt="..." class="img-responsive" />
+                                        </div>
+                                        <div class="col-lg-10">
+                                            <h5 class="nomargin"> <b> Iphone 6s </b> </h5>
+                                            <p> The iPhone is a smartphone made by Apple that combines a computer, iPod,
+                                                digital camera and cellular phone into one device with a touchscreen
+                                                interface.. </p>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td> <strong> 30,000 </strong> </td>
+                                <td data-th="Quantity">
+                                    <b> <input type="number" class="form-control text-center" value="1"> </b>
+                                </td>
+                                </td>
+                                <td> <strong> 30,000 </strong> </td>
+                                <td class="actions" data-th="" style="width:10%;">
+                                    <button class="btn btn-info btn-sm"> <span
+                                            class="glyphicon glyphicon-shopping-cart">
+                                        </span> </button>
+                                    <button class="btn btn-danger btn-sm"> <i class="fa fa-trash-o"> </i> </button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="row">
+                                        <div class="col-lg-2 Product-img">
+                                            <img src="./../img2/laptop2.jpg" alt="..." class="img-responsive">
+                                        </div>
+                                        <div class="col-lg-10">
+                                            <h5 class="nomargin"> <b> Dell Power </b> </h5>
+                                            <p> Dell is an American company that develops, sells, repairs, and supports
+                                                computers and related products and services,. </p>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td> <strong> 50,000 </strong> </td>
+                                <td data-th="Quantity">
+                                    <b> <input type="number" class="form-control text-center" value="1"> </b>
+                                </td>
+                                </td>
+                                <td> <strong> 50,000 </strong> </td>
+                                <td class="actions" data-th="" style="width:10%;">
+                                    <button class="btn btn-info btn-sm"> <span
+                                            class="glyphicon glyphicon-shopping-cart">
+                                        </span> </button>
+                                    <button class="btn btn-danger btn-sm"> <i class="fa fa-trash-o"> </i> </button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="row">
+                                        <div class="col-lg-2 Product-img">
+                                            <img src="./../img2/cloth.jpg" alt="pari" class="img-responsive" />
+                                        </div>
+                                        <div class="col-lg-10">
+                                            <h5 class="nomargin"> <b> Lenovo K6 Power </b> </h5>
+                                            <p> Lenovo, a globally recognized Chinese brand has gained immense
+                                                popularity
+                                                in the Indian market for selling high-performance laptops with excellent
+                                                features. </p>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td> <strong> 50,000 </strong> </td>
+                                <td data-th="Quantity">
+                                    <b> <input type="number" class="form-control text-center" value="1"> </b>
+                                </td>
+                                <td> <strong> 50,000 </strong> </td>
+                                <td class="actions" data-th="" style="width:10%;">
+                                    <button class="btn btn-info btn-sm"> <span
+                                            class="glyphicon glyphicon-shopping-cart">
+                                        </span> </button>
+                                    <button class="btn btn-danger btn-sm"> <i class="fa fa-trash-o"> </i> </button>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <div class="row">
+                                        <div class="col-lg-2 Product-img">
+                                            <img src="./../img2/iphone2.jpg" alt="..." class="img-responsive" />
+                                        </div>
+                                        <div class="col-lg-10">
+                                            <h5 class="nomargin"> <b> Iphone 6s </b> </h5>
+                                            <p> The iPhone is a smartphone made by Apple that combines a computer, iPod,
+                                                digital camera and cellular phone into one device with a touchscreen
+                                                interface.. </p>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td> <strong> 30,000 </strong> </td>
+                                <td data-th="Quantity">
+                                    <b> <input type="number" class="form-control text-center" value="1"> </b>
+                                </td>
+                                </td>
+                                <td> <strong> 30,000 </strong> </td>
+                                <td class="actions" data-th="" style="width:10%;">
+                                    <button class="btn btn-info btn-sm"> <span
+                                            class="glyphicon glyphicon-shopping-cart">
+                                        </span> </button>
+                                    <button class="btn btn-danger btn-sm"> <i class="fa fa-trash-o"> </i> </button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="row">
+                                        <div class="col-lg-2 Product-img">
+                                            <img src="./../img2/cloth1.jpg" alt="..." class="img-responsive">
+                                        </div>
+                                        <div class="col-lg-10">
+                                            <h5 class="nomargin"> <b> Dell Power </b> </h5>
+                                            <p> Dell is an American company that develops, sells, repairs, and supports
+                                                computers and related products and services,. </p>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td> <strong> 50,000 </strong> </td>
+                                <td data-th="Quantity">
+                                    <b> <input type="number" class="form-control text-center" value="1"> </b>
+                                </td>
+                                </td>
+                                <td> <strong> 50,000 </strong> </td>
+                                <td class="actions" data-th="" style="width:10%;">
+                                    <button class="btn btn-info btn-sm"> <span
+                                            class="glyphicon glyphicon-shopping-cart">
+                                        </span> </button>
+                                    <button class="btn btn-danger btn-sm"> <i class="fa fa-trash-o"> </i> </button>
+                                </td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <td> <a href="#" class="btn btn-success "> <i class="fa fa-angle-left"> </i> Continue
+                                        Shopping </a> </td>
+                                <td colspan="2" class="hidden-xs"> </td>
+                                <!-- <td class="hidden-xs text-center" style="width:10%;"> <strong> Total Price : 1,30,000
+                                </strong> </td> -->
+                                <td> <a href="#" class="btn btn-success btn-block"> Checkout <i
+                                            class="fa fa-angle-right">
+                                        </i> </a> </td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+        <div class="about-section">
+            <h1>About Us Page</h1>
+            <p>Some text about who we are and what we do.</p>
+            <p>this ios the main the about Team.</p>
+        </div>
+
+        <h2 style="text-align:center">Our Team</h2>
+        <div class="row">
+            <div class="column">
+                <div class="card">
+                    <img src="./../img2/about company.jpg" alt="Jane" style="width:100%">
+                    <div class="container">
+                        <h2>Company Profile</h2>
+                        <p class="title">CEO & Founder</p>
+                        <p>99% Match on Usa Software Companies. Find Here with Visymo.com - Free, Private and Secure.
+                            Search
+                            for Usa Software Companies. Instant and personalized results at Visymo Search. Results &
+                            Answers. Unlimited Access. Privacy Friendly. Always Facts.
+                            ‎Top 10 Listings. · ‎Get All Results. · ‎100's of Results. · ‎99% Match.
+                        </p>
+                        <p>About Company</p>
+                        <p><button class="button">Contact</button></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="card">
+                    <img src="./../img2/team work.jpg" alt="Mike" style="width:100%">
+                    <div class="container">
+                        <h2>Team Leader</h2>
+                        <p class="title">Art Director</p>
+                        <p>99% Match on Usa Software Companies. Find Here with Visymo.com - Free, Private and Secure.
+                            Search
+                            for Usa Software Companies. Instant and personalized results at Visymo Search. Results &
+                            Answers. Unlimited Access. Privacy Friendly. Always Facts.
+                            ‎Top 10 Listings. · ‎Get All Results. · ‎100's of Results. · ‎99% Match.
+                            .</p>
+
+                        <p><button class="button">Contact</button></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="card">
+                    <img src="./../img2/copany details.jpg" alt="John" style="width:100%">
+                    <div class="container">
+                        <h2>Company</h2>
+                        <p class="title">Designer</p>
+                        <p>99% Match on Usa Software Companies. Find Here with Visymo.com - Free, Private and Secure.
+                            Search
+                            for Usa Software Companies. Instant and personalized results at Visymo Search. Results &
+                            Answers. Unlimited Access. Privacy Friendly. Always Facts.
+                          
+                            .</p>
+                        <!-- <p>Company Details</p> -->
+                        <p><button class="button">Contact</button></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

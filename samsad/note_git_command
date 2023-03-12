@@ -1,0 +1,12 @@
+Git command:-
+
+open source control and select changes file by pressing plus +
+or
+
+git add .    ---> it will move all file from changes to staged changes
+
+git commit -m "message"
+git pull
+git push
+
+

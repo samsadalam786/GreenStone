@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTRATION FOR NEW USER</title>
+    <link rel="stylesheet" href="./login_REGISTRATION_page.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+    <form>
+        <div class="container">
+            <h1> REGISTRATION FOR NEW USER</h1>
+            <hr>
+            <label> First Name </label>
+            <input type="text" id="Firstname" name="firstname" placeholder="Firstname" size="15" required />
+            <label> Middle Name: </label>
+            <input type="text" id="middlename" name="middlename" placeholder="Middlename" size="15" required />
+            <label> Last Name: </label>
+            <input type="text" id="lastname" name="lastname" placeholder="Lastname" size="15" required />
+            <div>
+                <label id="Qualification">
+                    Qualification :
+                </label>
+
+                <select>
+                    <option value="Course">Course</option>
+                    <option value="BCA">BCA</option>
+                    <option value="BBA">BBA</option>
+                    <option value="B.Tech">B.Tech</option>
+                    <option value="MBA">MBA</option>
+                    <option value="MCA">MCA</option>
+                    <option value="M.Tech">M.Tech</option>
+                </select>
+            </div>
+            <div>
+                <label id="Gender:checked">
+                    Gender :
+                </label><br>
+                <input type="radio" id="msex" value="Male" name="gender" value="Male" > Male
+                <input type="radio" id="fsex" value="Female" name="gender" value="Female"> Female
+                <input type="radio" id="mfsex" value="Other" name="gender" value="Other">Other
+
+            </div>
+            <label>
+                Phone :
+            </label>
+            <input type="text" id="countrycode" name="countrycode" placeholder="Country Code" value="+91">
+            <input type="text" id="phone" name="phone" placeholder="phone no.">
+            Current Address :
+            <textarea cols="80" rows="5" id="CurrentAddress" placeholder="Current Address" value="address" required>
+      </textarea>
+            <label for="email"><b>Email</b></label>
+            <input type="text" id="Email" placeholder="Enter Email" name="email" required>
+
+            <label for="psw"><b>Password</b></label>
+            <input type="password" id="Password" placeholder="Enter Password" name="psw" required>
+
+            <label for="psw-repeat"><b>Re-type Password</b></label>
+            <input type="password" id="RetypePassword" placeholder="Retype Password" name="psw-repeat" required>
+            <button class="btnRegister " type="button" onclick="btnRegister()"> Register</button>
+            <button type="button" class="cancelbtn">CANCEL</button>
+        </div>
+    </form>
+    <script src="./login_REGISTRATION_page.js"></script>
+</body>
+
+</html>

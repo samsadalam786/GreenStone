@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Send message</title>
+    <link rel="stylesheet" href="./create_form.css">
+    <style>
+
+    </style>
+
+</head>
+
+<body>
+    <section class="formsec">
+        <p class="titlep">CONTACT FORM</p>
+        <div class="myform">
+            <div class="divinput">
+                <label for="firstname">FIRST NAME</label>
+                <input type="text" id="firstname" class="usern" placeholder="FIRST NAME" onchange="myfn()">
+            </div>
+            <div class="divinput">
+                <label for="lastname">LAST NAME</label>
+                <input type="text" id="lastname" class="usern" placeholder="LAST NAME" onchange="myln()">
+            </div>
+            <div class="divinput">
+                <label for="email">EMAIL</label>
+                <input type="email" id="email" class="usern" placeholder="EMAIL" onchange="myem()">
+            </div>
+            <div class="divinput">
+                <label for="number">PHONE NUMBER</label>
+                <input type="number" id="number" maxlength="10" class="usern" placeholder="PHONE NUMBER"
+                    onchange="mymn()">
+            </div>
+            <div class="divinput">
+                <label for="city" class="fn"> CITY</label>
+                <input type="text" id="city" class="usern" placeholder="CITY" onchange="mycity()">
+                <select id="city">
+                    <option value="city">bihar</option>
+                    <option value="city">rajsthan</option>
+                    <option value="city">jaipur</option>
+                  </select>
+            </div>
+            <div class="divinput">
+                <label for="message" class="fn"> MESSEGE</label>
+                <textarea class="usern" id="message" name="" id="" cols="30" rows="6" placeholder="MESSAGE"
+                    onchange="mymsg()"></textarea>
+            </div>
+            <div class="divinput">
+                <button type="button" id="btn" class="btn" onclick="mysend()">Send</button>
+            </div>
+
+        </div>
+
+    </section>
+
+</body>
+<script src="./create_form.js"></script>
+
+</html>

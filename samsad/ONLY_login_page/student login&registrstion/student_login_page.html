@@ -1,0 +1,24 @@
+<!DOCTYPE html> 
+<html> 
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title> Login Page </title>
+<link rel="stylesheet" href="./student_login_page.css"> 
+</head>  
+<body>  
+ <h1> Student Login Form </h1>
+    <form>
+        <div class="container"> 
+            <label>Username : </label> 
+            <input type="text" id="uname" placeholder="Enter Username" name="username" onclick="username" required>
+            <label>Password : </label> 
+            <input type="password" id="psw" placeholder="Enter Password" name="password" onclick="password" required>
+            <button type="submit" id="save" onclick="log">Login</button> 
+            <input type="checkbox" checked="checked" id="box"> Remember me 
+            <button type="button" class="cancelbtn" id="cel"> Cancel</button> 
+            Forgot <a href="#"> password? </a> 
+        </div> 
+    </form>   
+</body> 
+<script src="./student_login_page.js"></script>  
+</html>

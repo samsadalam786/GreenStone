@@ -1,0 +1,123 @@
+/* NAVBAR */
+.navbar-default .navbar-toggle {
+    border-color: #fff;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+
+.navbar-default .navbar-toggle:focus, 
+.navbar-default .navbar-toggle:hover {
+    background-color: #000;
+}
+
+.navbar-default {
+  background: none  ;
+  border: none ;
+}
+
+.navbar-collapse .collapse.in{
+  background: #222;
+}
+.main_navbar .navbar-nav > li{
+  margin-left:1px;
+  margin-right:1px;
+}
+.main_navbar .navbar-nav > li > a:focus,
+.main_navbar .navbar-nav > li > a {
+  color: #677294;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 14px;
+  
+  border-bottom: 3px solid transparent;
+
+  -webkit-transition: all .25s linear;
+  -moz-transition: all .25s linear;
+  -ms-transition: all .25s linear;
+  -o-transition: all .25s linear;
+  transition: all .25s linear;
+}
+
+.navbar-default .navbar-nav>.active>a, 
+.navbar-default .navbar-nav>.active>a:focus, 
+.navbar-default .navbar-nav>.active>a:hover {
+    color: #ffc500;
+    background-color: transparent;
+    border-bottom: 3px solid #ffc500;
+}
+
+.main_navbar .navbar-nav > li > a:hover{
+  color:rgba(0,0,0,.7);
+}
+.main_navbar{
+  padding-top : 20px;
+  padding-bottom: 20px;
+}
+
+
+.main_navbar.affixed,
+.main_navbar.affixed:hover{
+  background-color: #fff;
+  padding:0px;
+}
+.main_navbar .navbar-brand  img {
+  -webkit-transition: all .25s linear;
+  -moz-transition: all .25s linear;
+  -ms-transition: all .25s linear;
+  -o-transition: all .25s linear;
+  transition: all .25s linear;
+  max-width: 170px;
+  max-height: 100%;
+}
+.main_navbar .navbar-brand  {
+  padding: 2px;
+}
+
+.main_navbar.affixed .navbar-brand {
+  padding:4px;
+}
+.main_navbar.affixed .navbar-brand  img {
+  max-width: 210px;
+}
+
+.navbar_btn{
+  background: #f34f53;
+  color:#fff !important;
+  border-radius: 0px;
+  border-color: transparent !important;
+}
+
+.navbar_btn:focus,
+.navbar_btn:active,
+.navbar_btn:hover{
+  background: #FF5722 !important;
+}
+/* NAVBAR ENDS */
+
+@media (max-width: 768px){
+  .main_navbar .navbar-brand img{
+    max-width:110px;
+  }
+  .main_navbar .navbar-brand {
+    padding: 5px 2px;
+  }
+  .main_navbar {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  .navbar-toggle{
+    margin-top: 8px;
+  }
+  .main_navbar.affixed .navbar-brand {
+    padding: 8px;
+  }
+  .main_navbar.affixed .navbar-brand img {
+    max-width: 210px;
+  }
+  .navbar-fixed-top .navbar-collapse{
+    background: #333;
+    border-color: #000;
+  }
+
+}
