@@ -44,6 +44,7 @@ const page = () => {
     })
   return (
     <>
+    
       <h1 className='bg-black text-white text-center py-2 px-1 mt-2 text-4xl font-bold'>This is samsad todolistl</h1>
 
       <form onSubmit={submitHandler}>
