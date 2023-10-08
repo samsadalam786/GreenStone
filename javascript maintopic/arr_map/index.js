@@ -7,6 +7,8 @@
 
 // employee
 // employee details of company
+
+
 const persons = [
     { name: "Rahim", age: 75 },
     { name: "Rahim", age: 89 },
@@ -17,23 +19,26 @@ const persons = [
 ]
 
 // empname,age,birthYear,active
-// const employee =persons.map(person=>{
-//     return{
-//         empname:person.name
-//     }
-// })
-// console.log(employee);
+const employee =persons.map(person=>{
+    return{
+        empname:person.name
+    }
+})
+console.log(employee);
+// 
+
 // const employee = persons.map(persons => {
 //     return {
 //         empname: persons.name, age: persons.age, birthYear: 2023 - persons.age, active: persons.age >= 80 ? false : true
 //     }
 // })
 // console.log(employee);
-const employee = persons.map(persons => {
-    return {
-        empname: persons.name, age: persons.age, birthYear: 2023 - persons.age, active: persons.age > 85 ? false : true
-    }
-})
-console.log(employee);
+
+// const employee = persons.map(persons => {
+//     return {
+//         empname: persons.name, age: persons.age, birthYear: 2023 - persons.age, active: persons.age > 85 ? false : true
+//     }
+// })
+// console.log(employee);
 
 
